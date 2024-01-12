@@ -1,7 +1,8 @@
 const Character = ({ name, imgUrl, birth, death, race, realm, spouse }) => {
     return (
         <div>
-            <h2>{ name }</h2>
+            <h2>{name}</h2>
+            <h1>Potato!</h1>
 
             <img src={ imgUrl } alt={ name } />
 
